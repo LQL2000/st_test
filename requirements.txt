@@ -1,0 +1,9 @@
+Cython
+autopep8 #格式化规范
+numpy #数学运算库
+icecream #Debug库
+pandas #数据分析库
+retrying #试错库(装饰器版本的try except)
+pretty_errors #简化报错信息
+python-office #Python操作Office
+isort #自动整理Import
