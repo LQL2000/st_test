@@ -7,3 +7,4 @@ retrying #试错库(装饰器版本的try except)
 pretty_errors #简化报错信息
 python-office #Python操作Office
 isort #自动整理Import
+streamlit

@@ -1,13 +1,13 @@
 import time
 from ctypes import *  # 结构体数组类
 
-# import isort
-# import numpy as np
-# import pandas as pd
+import isort
+import numpy as np
+import pandas as pd
 import streamlit as st
 from icecream import ic
 
-# isort.file(__file__)  # 自动格式化文件
+isort.file(__file__)  # 自动格式化文件
 
 VCI_USBCAN2 = 4
 
@@ -135,7 +135,7 @@ if __name__ == "__main__":
                                          baudrate_config.get(genre)[0],
                                          baudrate_config.get(genre)[1],
                                          0)
-        ic(can1_init_config)
+        # ic(can1_init_config)
     with col3:
         genre = st.radio(
                 "通道2波特率",
@@ -148,7 +148,7 @@ if __name__ == "__main__":
                                          baudrate_config.get(genre)[0],
                                          baudrate_config.get(genre)[1],
                                          0)
-        ic(can2_init_config)
+        # ic(can2_init_config)
 
     # number = st.number_input('Insert a number', value=2)
     # st.write('The current number is ', number)
